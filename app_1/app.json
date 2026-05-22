@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "app_1",
+    "slug": "app_1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0077b6",
+        "foregroundImage": "./assets/logos/logo.png",
+        "backgroundImage": "./assets/logos/logo.png",
+        "monochromeImage": "./assets/logos/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pacientes"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/logos/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89899c48-dec9-4447-b2df-742758d8a76d"
+      }
+    }
+  }
+}

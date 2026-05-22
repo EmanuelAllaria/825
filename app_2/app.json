@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Dentista Médicos",
+    "slug": "dentista-medicos",
+    "scheme": "dentistasearchmedicos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0077b6",
+        "foregroundImage": "./assets/logos/logo.png",
+        "backgroundImage": "./assets/logos/logo.png",
+        "monochromeImage": "./assets/logos/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.medicos"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/logos/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88199d4a-ead1-4ba5-978b-576ea1cd0e0c"
+      }
+    }
+  }
+}
